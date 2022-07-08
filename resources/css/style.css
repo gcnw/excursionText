@@ -1,12 +1,10 @@
-h1, h2, h3, p, a {
+body {
+    background-color: #000000;
+    text-align: center;
     font-family: Verdana;
     color: white;
 }
 
-body {
-  background-color: #000000;
-  text-align: center;
-}
 h1 {
     
     font-size: 50px;
@@ -23,12 +21,23 @@ p {
     color:aquamarine;
 }
 
-#travelguide, h2 {
+#travelguide h2 {
     font-weight: 300;
     font-size: 42px;
+    color: white;
 }
 
 footer {
     text-align: right;
 }
 
+img {
+    display:block;
+    margin: 0 auto;
+  }
+
+#comingsoon {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
